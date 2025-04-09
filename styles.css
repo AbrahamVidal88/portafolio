@@ -10,8 +10,7 @@ body, html {
 }
 
 /* dar estilos al componente wrapper (div class wrapper)*/
-.wrapper, 
-.portfolio {
+.wrapper {
     width: 100vw;
     height: 100vh;
     background-color: #191c32;
@@ -131,6 +130,12 @@ span {
     margin-bottom: 1em;
 }
 
+.portfolio{
+    width: 100vw;
+    height: 100vh;
+    background-color: #191c32;
+    color: #ffffff;
+}
 .portfolio-headings {
     width: 100vw;
     padding: 5em;
@@ -151,7 +156,9 @@ span {
 .card {
     width: 300px;
     height: 350px;
+    color: #ffffff;
     background-color: #273289;
+    margin: 1em;
 }
 
 .card__img {
@@ -193,5 +200,84 @@ span {
     display: flex;
     width: 100%;
     justify-content: center;
+    margin-top: 1em;
+}
+
+.contact-headings h2 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.contact-section {
+    background-color: #191c32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-contact {
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.form textarea {
+    height: 150px;
+    background: none;
+    color: #fff;
+    padding: 1.5em;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: aqua;
+}
+
+.footer h2 {
+    font-size: 3em;   
+}
+
+.footer h5 {
+    font-size: 1.5em;   
+}
+
+.social-network i {
+    cursor: pointer;
+}
+
+.social-network {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
     margin-top: 1em;
 }
